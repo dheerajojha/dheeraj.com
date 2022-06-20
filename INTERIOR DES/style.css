@@ -1,0 +1,49 @@
+/* universal */
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+img {
+  filter: blur(0rem);
+}
+
+img:hover {
+  filter: blur(0.1rem);
+}
+del {
+  color: gray;
+}
+
+.header-wrapper .nav-link {
+  letter-spacing: 0.2rem;
+  font-weight: 800;
+}
+
+.contact-wrapper .contact-btn a {
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid gray;
+  border-radius: 3rem;
+  background: #008080;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.contact-wrapper .contact-btn a:hover {
+  color: gray;
+  background: #fff;
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 1700px) {
+  .about-wrapper .about-img img {
+    min-height: 15rem;
+    margin: 0.5rem 0rem;
+  }
+
+  .contact-wrapper .contact-btn {
+    margin: 0.5rem 0rem;
+  }
+}
